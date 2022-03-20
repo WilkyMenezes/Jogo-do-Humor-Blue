@@ -3,15 +3,65 @@
     padding: 0;
 }
 
+body {
+    background-image: url("../img/fundo-lilas.png");
+}
 
+body img{
+    width: 100%;
+    max-width: 250px;
+}
 
 
 .box {
     display: flex;
+    text-align: center;
 
+    width: auto;
+    text-align: center;
+    padding: 40px 20px;
+
+}
+
+img{
+    max-width: 100%;
 }
 
 .min {
     position: relative;
+    width: 100%;
 }
 
+h1 {
+    text-align: center;
+    color: rgb(27, 194, 138);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botao {
+    text-align: center;
+    padding: 10px;
+
+}
+
+#btn {
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #FCC302;
+    font-size: 18px;
+}
+
+#btn:hover {
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color:  rgb(27, 194, 138);
+    font-size: 18px;
+}
